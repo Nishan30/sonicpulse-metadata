@@ -691,7 +691,7 @@ export default async function handler(request, response) {
     }
     
     // Connect to the Sonic Testnet using a read-only provider
-    const provider = new ethers.JsonRpcProvider("https://rpc.testnet.sonic.game/");
+    const provider = new ethers.JsonRpcProvider("https://rpc.testnet.soniclabs.com/");
     const contract = new ethers.Contract(contractAddress, contractABI, provider);
 
     // Fetch the vehicle's state and owner from the blockchain
