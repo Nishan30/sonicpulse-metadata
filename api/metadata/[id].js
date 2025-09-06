@@ -6,12 +6,10 @@
 import { ethers } from 'ethers';
 
 // --- IMPORTANT: Paste your VehicleRegistry contract address here ---
-const contractAddress = "YOUR_NEWEST_VEHICLE_REGISTRY_ADDRESS";
+const contractAddress = "0x6F430C55cE1e23959fd4C873C5b2D17351F77a58";
 
 // --- IMPORTANT: Paste the entire ABI array you copied directly here ---
-const contractABI = [
-    // PASTE THE FULL ABI ARRAY HERE
-];
+const contractABI = require("./abi/VehicleRegistry.json").abi;
 
 // This is the main serverless function handler
 export default async function handler(request, response) {
