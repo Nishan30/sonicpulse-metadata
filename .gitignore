@@ -1,0 +1,19 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+npm-debug.log*
+yarn-error.log*
+*.log
+
+# Build artifacts
+dist/
+build/
+
+# IDE and OS specific files
+.DS_Store
+.vscode/
+.idea/
