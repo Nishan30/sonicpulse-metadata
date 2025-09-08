@@ -715,7 +715,7 @@ export default async function handler(request, response) {
     const metadata = {
       name: `SonicPulse Vehicle #${id}`,
       description: "A dynamic NFT representing a real-time coordinated vehicle on the Sonic network.",
-      image: "https://i.imgur.com/x854B7S.png", // A sample image URL
+      image: "https://sonicpulse-metadata.vercel.app/car.png", // A sample image URL
       owner: owner,
       attributes: [
         {
