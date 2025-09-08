@@ -6,7 +6,7 @@
 import { ethers } from 'ethers';
 
 // --- IMPORTANT: Paste your VehicleRegistry contract address here ---
-const contractAddress = "0x6F430C55cE1e23959fd4C873C5b2D17351F77a58";
+const contractAddress = "0xAcB69a7a0a144a7a2209849C0BaeA5219E0cd28E";
 
 // --- IMPORTANT: Paste the entire ABI array you copied directly here ---
 const contractABI = [
